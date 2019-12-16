@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/react-app-1/static/css/main.cfbebc86.chunk.css",
-    "main.js": "/react-app-1/static/js/main.e34e0379.chunk.js",
-    "main.js.map": "/react-app-1/static/js/main.e34e0379.chunk.js.map",
-    "runtime-main.js": "/react-app-1/static/js/runtime-main.2f84a13e.js",
-    "runtime-main.js.map": "/react-app-1/static/js/runtime-main.2f84a13e.js.map",
-    "static/css/2.f4f6a890.chunk.css": "/react-app-1/static/css/2.f4f6a890.chunk.css",
-    "static/js/2.926f4d05.chunk.js": "/react-app-1/static/js/2.926f4d05.chunk.js",
-    "static/js/2.926f4d05.chunk.js.map": "/react-app-1/static/js/2.926f4d05.chunk.js.map",
-    "index.html": "/react-app-1/index.html",
-    "precache-manifest.a2bf63c163fa16a3f39427ac90586876.js": "/react-app-1/precache-manifest.a2bf63c163fa16a3f39427ac90586876.js",
-    "service-worker.js": "/react-app-1/service-worker.js",
-    "static/css/2.f4f6a890.chunk.css.map": "/react-app-1/static/css/2.f4f6a890.chunk.css.map",
-    "static/css/main.cfbebc86.chunk.css.map": "/react-app-1/static/css/main.cfbebc86.chunk.css.map",
-    "static/js/2.926f4d05.chunk.js.LICENSE": "/react-app-1/static/js/2.926f4d05.chunk.js.LICENSE",
-    "static/media/mdb.css": "/react-app-1/static/media/arrow_right.8ef6a08c.svg",
-    "static/media/index.css": "/react-app-1/static/media/background-football.40cdf275.jpg",
-    "static/media/bg-1.jpg": "/react-app-1/static/media/bg-1.e4e2cd7f.jpg",
-    "static/media/all.min.css": "/react-app-1/static/media/fa-solid-900.f6121be5.woff2"
+    "main.css": "/football-app/static/css/main.5dbfcf7f.chunk.css",
+    "main.js": "/football-app/static/js/main.318ae5b4.chunk.js",
+    "main.js.map": "/football-app/static/js/main.318ae5b4.chunk.js.map",
+    "runtime-main.js": "/football-app/static/js/runtime-main.37d15139.js",
+    "runtime-main.js.map": "/football-app/static/js/runtime-main.37d15139.js.map",
+    "static/css/2.8257ae5d.chunk.css": "/football-app/static/css/2.8257ae5d.chunk.css",
+    "static/js/2.926f4d05.chunk.js": "/football-app/static/js/2.926f4d05.chunk.js",
+    "static/js/2.926f4d05.chunk.js.map": "/football-app/static/js/2.926f4d05.chunk.js.map",
+    "index.html": "/football-app/index.html",
+    "precache-manifest.b6835b060b7a69986c2ef5dbd5f1ae78.js": "/football-app/precache-manifest.b6835b060b7a69986c2ef5dbd5f1ae78.js",
+    "service-worker.js": "/football-app/service-worker.js",
+    "static/css/2.8257ae5d.chunk.css.map": "/football-app/static/css/2.8257ae5d.chunk.css.map",
+    "static/css/main.5dbfcf7f.chunk.css.map": "/football-app/static/css/main.5dbfcf7f.chunk.css.map",
+    "static/js/2.926f4d05.chunk.js.LICENSE": "/football-app/static/js/2.926f4d05.chunk.js.LICENSE",
+    "static/media/mdb.css": "/football-app/static/media/arrow_right.8ef6a08c.svg",
+    "static/media/index.css": "/football-app/static/media/background-football.40cdf275.jpg",
+    "static/media/bg-1.jpg": "/football-app/static/media/bg-1.e4e2cd7f.jpg",
+    "static/media/all.min.css": "/football-app/static/media/fa-solid-900.f6121be5.woff2"
   },
   "entrypoints": [
-    "static/js/runtime-main.2f84a13e.js",
-    "static/css/2.f4f6a890.chunk.css",
+    "static/js/runtime-main.37d15139.js",
+    "static/css/2.8257ae5d.chunk.css",
     "static/js/2.926f4d05.chunk.js",
-    "static/css/main.cfbebc86.chunk.css",
-    "static/js/main.e34e0379.chunk.js"
+    "static/css/main.5dbfcf7f.chunk.css",
+    "static/js/main.318ae5b4.chunk.js"
   ]
 }
