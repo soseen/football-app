@@ -24,27 +24,30 @@ class DisplayData extends React.Component {
       }
 
     getData = async (leagueCode) => {
-        // e.preventDefault();
+      try {
         const api_call = await fetch(`https://api.football-data.org/v2/competitions`, {
             headers: {
               'X-Auth-Token': API_KEY
             },
             mode: 'cors'
           });
-
           const competitionsData = await api_call.json();
-          
+
           for (var i in competitionsData.competitions){
-              if (competitionsData.competitions[i].code === leagueCode){
-                this.setState({
-                  leagueCode: competitionsData.competitions[i].code,
-                  leagueIndex: competitionsData.competitions[i].id
-                })
-              }
-          }
-      
-          this.getStandings();
-          this.getCurrentWeekFixtures();
+            if (competitionsData.competitions[i].code === leagueCode){
+              this.setState({
+                leagueCode: competitionsData.competitions[i].code,
+                leagueIndex: competitionsData.competitions[i].id
+              })
+            }
+        }
+
+        this.getStandings();
+        this.getCurrentWeekFixtures();
+      } catch (error) {
+        alert("Exceeded amount of available api calls. Try again in a minute :)");
+      }
+             
 
       }
 
@@ -115,7 +118,8 @@ class DisplayData extends React.Component {
     }
 
     getFixtures = async (gameday) => {
-      const api_call4 = await fetch(`https://api.football-data.org/v2/competitions/${this.state.leagueIndex}/matches?matchday=${gameday}`, {
+      try {
+        const api_call4 = await fetch(`https://api.football-data.org/v2/competitions/${this.state.leagueIndex}/matches?matchday=${gameday}`, {
         headers: {
           'X-Auth-Token': API_KEY
         },
@@ -164,36 +168,52 @@ class DisplayData extends React.Component {
         leagueFixtures: newStateArray 
       });
 
-
+      }
+      
+    } catch (error) {
+      alert("Exceeded amount of available api calls. Try again in a minute")
     }
+
 
     console.log(this.state.leagueFixtures);
   }
 
   displayPreviousGameweek = () => {
 
-    var gameday =this.state.currentWeek - 1;
+    try {
+      var gameday =this.state.currentWeek - 1;
 
-    this.setState({
+      this.setState({
       currentWeek: this.state.currentWeek - 1
-    })
+      });
 
-    this.getFixtures(gameday);
+      this.getFixtures(gameday);
+    } catch (error) {
+      alert("Exceeded amount of available api calls. Try again in a minute :)");
+    }
   }
 
   displayNextGameweek = () => {
 
-    var gameday =this.state.currentWeek +1;
+    try {
+      var gameday =this.state.currentWeek +1;
 
-    this.setState({
-      currentWeek: this.state.currentWeek + 1
+      this.setState({
+        currentWeek: this.state.currentWeek + 1
     })
 
     this.getFixtures(gameday);
+    } catch (error) {
+      alert("Exceeded amount of available api calls. Try again in a minute :)");
+    }
+
+
   }
 
   displayMatchStatistics = async (matchID) => {
-    const api_call5 = await fetch(`https://api.football-data.org/v2/matches/${matchID}`, {
+
+    try {
+      const api_call5 = await fetch(`https://api.football-data.org/v2/matches/${matchID}`, {
         headers: {
           'X-Auth-Token': API_KEY
         },
@@ -234,6 +254,9 @@ class DisplayData extends React.Component {
       } catch (error) {
       alert('No Details');
       }
+    } catch (error) {
+      alert("Exceeded amount of available api calls. Try again in a minute :)");
+    }
       
   }
 
