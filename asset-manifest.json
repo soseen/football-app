@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/react-app-1/static/css/main.cfbebc86.chunk.css",
+    "main.js": "/react-app-1/static/js/main.e34e0379.chunk.js",
+    "main.js.map": "/react-app-1/static/js/main.e34e0379.chunk.js.map",
+    "runtime-main.js": "/react-app-1/static/js/runtime-main.2f84a13e.js",
+    "runtime-main.js.map": "/react-app-1/static/js/runtime-main.2f84a13e.js.map",
+    "static/css/2.f4f6a890.chunk.css": "/react-app-1/static/css/2.f4f6a890.chunk.css",
+    "static/js/2.926f4d05.chunk.js": "/react-app-1/static/js/2.926f4d05.chunk.js",
+    "static/js/2.926f4d05.chunk.js.map": "/react-app-1/static/js/2.926f4d05.chunk.js.map",
+    "index.html": "/react-app-1/index.html",
+    "precache-manifest.a2bf63c163fa16a3f39427ac90586876.js": "/react-app-1/precache-manifest.a2bf63c163fa16a3f39427ac90586876.js",
+    "service-worker.js": "/react-app-1/service-worker.js",
+    "static/css/2.f4f6a890.chunk.css.map": "/react-app-1/static/css/2.f4f6a890.chunk.css.map",
+    "static/css/main.cfbebc86.chunk.css.map": "/react-app-1/static/css/main.cfbebc86.chunk.css.map",
+    "static/js/2.926f4d05.chunk.js.LICENSE": "/react-app-1/static/js/2.926f4d05.chunk.js.LICENSE",
+    "static/media/mdb.css": "/react-app-1/static/media/arrow_right.8ef6a08c.svg",
+    "static/media/index.css": "/react-app-1/static/media/background-football.40cdf275.jpg",
+    "static/media/bg-1.jpg": "/react-app-1/static/media/bg-1.e4e2cd7f.jpg",
+    "static/media/all.min.css": "/react-app-1/static/media/fa-solid-900.f6121be5.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2f84a13e.js",
+    "static/css/2.f4f6a890.chunk.css",
+    "static/js/2.926f4d05.chunk.js",
+    "static/css/main.cfbebc86.chunk.css",
+    "static/js/main.e34e0379.chunk.js"
+  ]
+}
