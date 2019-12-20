@@ -1,0 +1,14 @@
+.fixture-row:hover {
+    cursor: pointer;
+}
+
+.fixtures-table {
+    margin-top: 10px;
+    margin-right: 5px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    white-space: nowrap;
+    border-color: black;
+    border-radius: 3px;
+}
