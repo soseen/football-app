@@ -26,7 +26,7 @@ class SearchBar extends React.Component {
             <Navbar bg="dark" variant="dark" className = "navbar">
             <Form inline>
                 <FormGroup>
-                    <Form.Control as ="select" name="select" id="selectLeague" className=" mr-sm-2" ref="club" onChange={(e) => this.handleChange(e)}>
+                    <Form.Control as ="select" name="select" id="selectLeague" className=" mr-sm-2 select-css" ref="club" onChange={(e) => this.handleChange(e)}>
                     <option name = "PL">Premier League</option>
                     <option name = "PD">La Liga</option>
                     <option name = "SA">Serie A</option>

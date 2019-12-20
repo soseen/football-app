@@ -1,46 +1,9 @@
-.league-table {
-    margin-top: 10px;
-    margin-left: 5px;
-    text-align: center;
-    font-size: 18px;
-    font-weight: 500;
-    white-space: nowrap;
-    border-color: black;
-    border-radius: 3px;
-}
-
-.fixture-row:hover {
-    cursor: pointer;
-}
-
-.fixtures-table {
-    margin-top: 10px;
-    margin-right: 5px;
-    text-align: center;
-    font-size: 18px;
-    font-weight: 500;
-    white-space: nowrap;
-    border-color: black;
-    border-radius: 3px;
-}
-
-/* .arrow-left {
+.league-info {
+    margin:0 auto;
     display: flex;
-    align-items: flex-start;
+    justify-content: space-around ;
+    width: 60%;
+    background-color: #2f363d;
+    border-width: 2px;
+    border-style: solid;
 }
-
-.arrow-right {
-    display: flex;
-    align-items: flex-end;
-} */
-
-.table-team-name {
-    text-align: left;
-}
-
-.crest {
-    width: 20px;
-    min-height: 20px;
-    max-height: 25px;
-}
-

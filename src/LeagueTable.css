@@ -1,0 +1,19 @@
+.league-table {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    white-space: nowrap;
+    border-color: black;
+    border-radius: 3px;
+}
+
+.table-team-name {
+    text-align: left;
+}
+
+.crest {
+    width: 20px;
+    min-height: 20px;
+    max-height: 25px;
+}
