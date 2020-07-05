@@ -24,9 +24,9 @@ class SearchBar extends React.Component {
     render() {
         return ( 
             <Navbar bg="dark" variant="dark" className = "navbar">
-            <Form inline>
+            <Form block>
                 <FormGroup>
-                    <Form.Control as ="select" name="select" id="selectLeague" className=" mr-sm-2 select-css" ref="club" onChange={(e) => this.handleChange(e)}>
+                    <Form.Control as ="select" name="select" id="selectLeague" className="select-css" ref="club" onChange={(e) => this.handleChange(e)}>
                     <option name = "PL">Premier League</option>
                     <option name = "PD">La Liga</option>
                     <option name = "SA">Serie A</option>
@@ -34,7 +34,7 @@ class SearchBar extends React.Component {
                     <option name = "FL1">Ligue 1</option>
                     </Form.Control>
                 </FormGroup>
-                <Button variant="dark" id="btn-1" onClick={this.findClub}>Search</Button>
+                <Button className="search-btn" variant="dark" id="btn-1" onClick={this.findClub}>Search</Button>
             </Form>
             </Navbar>
             

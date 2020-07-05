@@ -52,18 +52,25 @@ class DisplayData extends React.Component {
 
 render() {
     return (
-    <div>
+    <div className="app-data">
       <SearchBar selectLeague={this.getData}/>
-      <div className = "league-info">
-        <Row className = "row">
-          <Col>
-            <LeagueTable ref = {(table) => this.LeagueTable = table} leagueIndex = {this.state.leagueIndex} apiKey = {API_KEY}/>
-          </Col>
-          <Col>
-            <Fixtures ref = {(fixtures) => this.Fixtures = fixtures} leagueIndex = {this.state.leagueIndex} apiKey = {API_KEY}/>
-          </Col>
-        </Row>
-        </div>  
+    {this.state.leagueCode != ' ' && 
+      <div>
+      <Row>
+      <p className="league-title">League info</p>
+      </Row>
+    <div className = "league-info">
+      <Row className = "row">
+        <Col className="column">
+          <LeagueTable ref = {(table) => this.LeagueTable = table} leagueIndex = {this.state.leagueIndex} apiKey = {API_KEY}/>
+        </Col>
+        <Col className="column">
+          <Fixtures ref = {(fixtures) => this.Fixtures = fixtures} leagueIndex = {this.state.leagueIndex} apiKey = {API_KEY}/>
+        </Col>
+      </Row>
+    </div>
+      </div>
+      }      
     </div>
      );
     }

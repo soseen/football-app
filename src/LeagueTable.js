@@ -61,10 +61,10 @@ render()
     return (
         <div>
         {this.state.leagueTable.length > 0 && 
-            <Table ref = {(childTable) => {this.childTable = childTable}} className="league-table" width = "40%" striped bordered hover variant="dark">
+            <Table ref = {(childTable) => {this.childTable = childTable}} className="league-table" striped hover size="sm" responsive="xl">
             <thead>
             <tr>
-            <th colSpan="10" align="center">League Table</th>
+            <th colSpan="10" align="center" class="league-title">League Table</th>
             </tr>
             <tr>
             <th>Position</th>
@@ -82,8 +82,8 @@ render()
             <tbody>
             {this.state.leagueTable.map(team => (
             <tr key={team.position}>
-            <td>{team.position}</td>
-            <td width="20%" className = "table-team-name"><img src = {team.crest} alt='crest' className="crest"/> {team.name}</td>
+            <td width="5%">{team.position}</td>
+            <td width="15%" className = "table-team-name"><img src = {team.crest} alt='crest' className="crest"/> {team.name}</td>
             <td width="10%">{team.played}</td>
             <td width="10%">{team.points}</td>
             <td width="10%">{team.won}</td>

@@ -1,9 +1,31 @@
 .league-info {
-    margin:0 auto;
+    margin: 20px auto;
     display: flex;
     justify-content: space-around ;
-    width: 60%;
-    background-color: #2f363d;
-    border-width: 2px;
-    border-style: solid;
+    width: 90%;
+    padding: 20px;
+    background-color: #00000099;
+    border: 2px solid gray;
+    border-radius: 20px;
+}
+
+.league-title {
+    color: white;
+    text-shadow: 2px 2px black;
+    font-size: 35px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+ .app-data {
+  width: 100%;
+  position: relative;
+}
+
+.row {
+    overflow: auto;
+}
+
+.column {
+    padding: 20px;
 }

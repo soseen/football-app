@@ -4,8 +4,16 @@ body {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; 
+  -moz-osx-font-smoothing: grayscale;
+  background: url('./img/bg-opacity.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  position: relative;
 }
+
 
 code {
    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -15,11 +23,6 @@ code {
 
 body, html {
   height: 100%;
-  }
-  .bg {
-  background-image: url('./img/background-football.jpg') ;
-  height: 100vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  width: 100%;
+  overflow: auto;
   }

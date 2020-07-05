@@ -31,7 +31,7 @@ state = {
           });
   
           console.log(this.state.currentWeek);
-  
+          console.log(this.props.leagueIndex);
           this.getFixtures(this.state.currentWeek);
       }
   
@@ -185,15 +185,15 @@ render()
     return (
         <div>
         {this.state.leagueFixtures.length > 0 && 
-            <Table className="fixtures-table" width = "40%%" striped bordered hover variant="dark">
+            <Table className="fixtures-table" width = "40%" striped hover size="sm" responsive="sm">
             <thead>
             <tr>
             <th colSpan="3">
-              <Button variant="dark" id="btn-1" className="arrow-left" onClick={() => this.displayPreviousGameweek(this.state.currentWeek - 1)}>
+              <Button id="btn-1" className="arrow-left" onClick={() => this.displayPreviousGameweek(this.state.currentWeek - 1)}>
                 <MDBIcon icon="caret-left"/>
               </Button>
-              Gameweek {this.state.currentWeek}
-              <Button variant="dark" id="btn-1" className="arrow-right" onClick={() => this.displayNextGameweek(this.state.currentWeek + 1)}>
+              <p className="fixtures-table-details">Gameweek {this.state.currentWeek}</p>
+              <Button id="btn-1" className="arrow-right" onClick={() => this.displayNextGameweek(this.state.currentWeek + 1)}>
                 <MDBIcon icon="caret-right"/></Button>
             </th>
             </tr>
@@ -210,7 +210,14 @@ render()
             </Table>
           }
         {this.state.matchInfo.length > 0 && 
-        <Table className="fixtures-table" width = "40%%" striped bordered hover variant="dark">
+        <Table className="fixtures-table" width = "40%" striped hover size="sm" responsive="sm">
+          <thead>
+            <tr>
+              <th colSpan="3">
+                <p className="fixtures-table-details">Match details</p>
+              </th>
+            </tr>  
+          </thead>
             <tbody>
             {this.state.matchInfo.map(match => (
                 <tr key={match.index}>

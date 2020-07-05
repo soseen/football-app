@@ -3,12 +3,44 @@
 }
 
 .fixtures-table {
-    margin-top: 10px;
-    margin-right: 5px;
     text-align: center;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: bolder;
     white-space: nowrap;
-    border-color: black;
-    border-radius: 3px;
+    text-shadow: 1px 1px black;
+    background-color: #1c324e;
+    border: 2px solid white;
+    color: white;
+    border-radius: 10px;
+    border-collapse: separate;
+    cursor: pointer;
+    width: 100%;
+}
+
+.fixtures-table tbody tr:hover td {
+    color: #5ba1f1;
+}
+
+.arrow-left,
+.arrow-right {
+    background: none !important;
+    border: none;
+    font-size: 25px;
+    box-shadow: none;
+}
+
+.arrow-left:hover,
+.arrow-right:hover {
+    background: none !important;
+    border: none;
+    box-shadow: none;
+    transform: scale(1.2);
+}
+
+.fixtures-table-details {
+    display: inline;
+    font-size: 20px;
+    font-weight: bolder;
+    text-shadow: 2px 2px black;
+    padding: 50px;
 }
