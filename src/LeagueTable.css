@@ -11,6 +11,7 @@
     border-collapse: separate;
     cursor: pointer;
     width: 100%;
+    overflow: hidden;
 }
 
 .league-title {
@@ -30,12 +31,23 @@
 .crest {
     width: 20px;
     height: auto;
+    margin-bottom: 2px;
 }
+
+table th {
+    font-size: 0.8rem;
+}
+
+/* table td img{
+    height: 100%;
+    width: auto;
+    margin: auto;
+} */
 
 @media (max-width: 600px) {
 
     html {
-        font-size: 10px;
+        font-size: 9px;
     }
 
     .crest {

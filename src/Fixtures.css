@@ -49,10 +49,6 @@
 @media (max-width: 600px) {
 
     html {
-        font-size: 10px;
-    }
-
-    .fixtures-table{
-        font-size: 10px;
+        font-size: 9px;
     }
 }

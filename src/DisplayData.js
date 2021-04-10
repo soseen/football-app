@@ -53,10 +53,7 @@ render() {
     <div className="app-data">
       <SearchBar selectLeague={this.getData}/>
     {this.state.leagueCode !== ' ' && 
-      <div>
-      <Row>
-      <p className="league-title">League info</p>
-      </Row>
+    <div>
     <div className = "league-info">
       <Row className = "row">
         <Col className="column">
@@ -67,7 +64,7 @@ render() {
         </Col>
       </Row>
     </div>
-      </div>
+    </div>
       }      
     </div>
      );
