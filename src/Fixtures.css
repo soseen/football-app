@@ -4,14 +4,13 @@
 
 .fixtures-table {
     text-align: center;
-    font-size: 18px;
+    font-size: 12px;
     font-weight: bolder;
     white-space: nowrap;
-    text-shadow: 1px 1px black;
-    background-color: #1c324e;
-    border: 2px solid white;
-    color: white;
-    border-radius: 10px;
+    background-color: #fff;
+    border: 2px solid #5ba1f1;
+    color: #000;
+    border-radius: 2px;
     border-collapse: separate;
     cursor: pointer;
     width: 100%;
@@ -25,8 +24,9 @@
 .arrow-right {
     background: none !important;
     border: none;
-    font-size: 25px;
+    font-size: 20px;
     box-shadow: none;
+    color: #000;
 }
 
 .arrow-left:hover,
@@ -34,13 +34,25 @@
     background: none !important;
     border: none;
     box-shadow: none;
+    color: #5ba1f1;
     transform: scale(1.2);
 }
 
 .fixtures-table-details {
     display: inline;
-    font-size: 20px;
+    font-size: 1.5rem;
     font-weight: bolder;
-    text-shadow: 2px 2px black;
     padding: 50px;
+}
+
+
+@media (max-width: 600px) {
+
+    html {
+        font-size: 10px;
+    }
+
+    .fixtures-table{
+        font-size: 10px;
+    }
 }

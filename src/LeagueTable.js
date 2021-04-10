@@ -14,7 +14,7 @@ getStandings = async () => {
     try {
         const api_call2 = await fetch(`https://api.football-data.org/v2/competitions/${this.props.leagueIndex}/standings`, {
         headers: {
-            'X-Auth-Token': this.props.apiKey
+            'X-Auth-Token': process.env.REACT_APP_API_KEY
           },
           mode: 'cors'
         });

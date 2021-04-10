@@ -16,7 +16,7 @@ state = {
       
         const api_call3 = await fetch(`https://api.football-data.org/v2/competitions/${this.props.leagueIndex}/matches?status=SCHEDULED`, {
               headers: {
-                'X-Auth-Token': this.props.apiKey
+                'X-Auth-Token': process.env.REACT_APP_API_KEY
               },
               mode: 'cors'
             });
@@ -39,7 +39,7 @@ state = {
         try {
           const api_call4 = await fetch(`https://api.football-data.org/v2/competitions/${this.props.leagueIndex}/matches?matchday=${gameday}`, {
           headers: {
-            'X-Auth-Token': this.props.apiKey
+            'X-Auth-Token': process.env.REACT_APP_API_KEY
           },
           mode: 'cors'
         });
@@ -135,7 +135,7 @@ state = {
       try {
         const api_call5 = await fetch(`https://api.football-data.org/v2/matches/${matchID}`, {
           headers: {
-            'X-Auth-Token': this.props.apiKey
+            'X-Auth-Token': process.env.REACT_APP_API_KEY
           },
           mode: 'cors'
         });

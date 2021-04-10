@@ -1,20 +1,8 @@
 .league-info {
-    margin: 20px auto;
+    margin: 10px auto;
     display: flex;
-    justify-content: space-around ;
-    width: 90%;
-    padding: 20px;
-    background-color: #00000099;
-    border: 2px solid gray;
-    border-radius: 20px;
-}
-
-.league-title {
-    color: white;
-    text-shadow: 2px 2px black;
-    font-size: 35px;
-    margin: auto;
-    margin-top: 20px;
+    justify-content: space-around;
+    width: 100%;
 }
 
  .app-data {
@@ -27,5 +15,5 @@
 }
 
 .column {
-    padding: 20px;
+    padding: 0 20px;
 }

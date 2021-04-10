@@ -6,8 +6,6 @@ import './DisplayData.css';
 import {Row, Col} from 'react-bootstrap';
 
 
-const API_KEY = 'd4a9110b90c6415bb3d252836a4bf034';
-
 
 class DisplayData extends React.Component {
 
@@ -22,7 +20,7 @@ class DisplayData extends React.Component {
       try {
         const api_call = await fetch(`https://api.football-data.org/v2/competitions`, {
             headers: {
-              'X-Auth-Token': API_KEY
+              'X-Auth-Token': process.env.REACT_APP_API_KEY
             },
             mode: 'cors'
           });
@@ -54,7 +52,7 @@ render() {
     return (
     <div className="app-data">
       <SearchBar selectLeague={this.getData}/>
-    {this.state.leagueCode != ' ' && 
+    {this.state.leagueCode !== ' ' && 
       <div>
       <Row>
       <p className="league-title">League info</p>
@@ -62,10 +60,10 @@ render() {
     <div className = "league-info">
       <Row className = "row">
         <Col className="column">
-          <LeagueTable ref = {(table) => this.LeagueTable = table} leagueIndex = {this.state.leagueIndex} apiKey = {API_KEY}/>
+          <LeagueTable ref = {(table) => this.LeagueTable = table} leagueIndex = {this.state.leagueIndex} />
         </Col>
         <Col className="column">
-          <Fixtures ref = {(fixtures) => this.Fixtures = fixtures} leagueIndex = {this.state.leagueIndex} apiKey = {API_KEY}/>
+          <Fixtures ref = {(fixtures) => this.Fixtures = fixtures} leagueIndex = {this.state.leagueIndex} />
         </Col>
       </Row>
     </div>
