@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/football-app/static/css/main.b370b59d.chunk.css",
-    "main.js": "/football-app/static/js/main.c47edf9d.chunk.js",
-    "main.js.map": "/football-app/static/js/main.c47edf9d.chunk.js.map",
+    "main.css": "/football-app/static/css/main.4fbfcfc9.chunk.css",
+    "main.js": "/football-app/static/js/main.4124be8b.chunk.js",
+    "main.js.map": "/football-app/static/js/main.4124be8b.chunk.js.map",
     "runtime-main.js": "/football-app/static/js/runtime-main.7cddbcd9.js",
     "runtime-main.js.map": "/football-app/static/js/runtime-main.7cddbcd9.js.map",
     "static/css/2.0734fd66.chunk.css": "/football-app/static/css/2.0734fd66.chunk.css",
     "static/js/2.042d7263.chunk.js": "/football-app/static/js/2.042d7263.chunk.js",
     "static/js/2.042d7263.chunk.js.map": "/football-app/static/js/2.042d7263.chunk.js.map",
     "index.html": "/football-app/index.html",
-    "precache-manifest.b94eb2c91f1e3aef33e77cb0a2d924a4.js": "/football-app/precache-manifest.b94eb2c91f1e3aef33e77cb0a2d924a4.js",
+    "precache-manifest.86e5041d7bd3c30034dca714f359bc9d.js": "/football-app/precache-manifest.86e5041d7bd3c30034dca714f359bc9d.js",
     "service-worker.js": "/football-app/service-worker.js",
     "static/css/2.0734fd66.chunk.css.map": "/football-app/static/css/2.0734fd66.chunk.css.map",
-    "static/css/main.b370b59d.chunk.css.map": "/football-app/static/css/main.b370b59d.chunk.css.map",
+    "static/css/main.4fbfcfc9.chunk.css.map": "/football-app/static/css/main.4fbfcfc9.chunk.css.map",
     "static/js/2.042d7263.chunk.js.LICENSE.txt": "/football-app/static/js/2.042d7263.chunk.js.LICENSE.txt",
     "static/media/mdb.css": "/football-app/static/media/arrow_right.8ef6a08c.svg",
-    "static/media/index.css": "/football-app/static/media/bg-opacity-1.fc53c918.png",
+    "static/media/App.css": "/football-app/static/media/bg-opacity-1.fc53c918.png",
     "static/media/all.min.css": "/football-app/static/media/fa-solid-900.f6121be5.woff2"
   },
   "entrypoints": [
     "static/js/runtime-main.7cddbcd9.js",
     "static/css/2.0734fd66.chunk.css",
     "static/js/2.042d7263.chunk.js",
-    "static/css/main.b370b59d.chunk.css",
-    "static/js/main.c47edf9d.chunk.js"
+    "static/css/main.4fbfcfc9.chunk.css",
+    "static/js/main.4124be8b.chunk.js"
   ]
 }
