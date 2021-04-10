@@ -2,7 +2,7 @@
   "name": "react-app-1",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Sosen082.github.io/football-app",
+  "homepage": "https://soseen.github.io/football-app",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
